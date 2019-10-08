@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>NEWS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">My News</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">general</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">health</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">science</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#">sports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">technology</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="container py-5 text-center">
+                <div class="form-group">
+                    <label  class="text-muted mt-3">Search</label>
+                    <input type="text"
+                    class="form-control"id="searchInp" aria-describedby="helpId" placeholder="">
+                    <button class="btn-info mt-2 py-1 px-3" id="myBtn">Search</button>
+                </div>
+            </div>
+
+
+                <section class="news ">
+                    <div id="options">
+                            <div id="countryOptions">
+                                <h5>Choose Country : </h5>
+                                <ul class="list-unstyled">
+                                    <li>Egypt</li>
+                                    <li class="mb-1">United States</li>
+                                    <br>
+                                    <li>Germany</li>
+                                    <li>France</li>
+                                    <li>Italy</li>
+                                </ul>
+                            </div>
+                            <i class="fas fa-cog"></i>
+                            <div class="clearfix"></div>
+                    </div>
+
+                    <div class="container">
+                            <div class="row" id="newsRow">
+                            </div>
+                    </div>
+                </section>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+       <script src="js/jquery-3.4.1.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <script src="js/main.js"></script>
+    </body>
+</html>

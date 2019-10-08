@@ -1,0 +1,54 @@
+#options
+{
+    position: fixed;
+    top: 200px;
+    left: 0;
+    z-index: 999999999999;
+}
+#countryOptions
+{
+    background-color: #ccc;
+    border: 2px solid teal;
+    padding: 5px;
+    float: left;
+}
+#countryOptions ul li 
+{
+    height: 30px;
+    background-color: #343A40;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+#options i{
+    float: left;
+    background-color: #343A40;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.new img{
+    height: 150px;
+    width:100% ;
+}
+.new h4{
+    font-family: 'Concert One', cursive;
+    font-size: 22px;
+    transition: height 3s ease-in-out;
+}
+.new p
+{
+    transition: height 3s ease-in-out;
+}
+.editHeight{
+    height: 50px;
+    overflow: hidden;
+}
+.button {
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+  }
